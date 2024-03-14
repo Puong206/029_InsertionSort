@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+int arr[9];
+int n;
 
 void input() {
 
@@ -25,8 +27,7 @@ void input() {
 }
 
 void insertionSort() {
-	int i, n, temp, j;
-	int arr[9];
+	int i, temp, j;
 
 	for (i = 1; i <= n - 1; i++) {         //step 1
 
